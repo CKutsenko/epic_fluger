@@ -1295,11 +1295,47 @@ address {
 \*----------------------------------------------------------------------------*/
 
 .row blockqoute,
-.row p {
+.row p,
+.row a{
   font-size: 16px;
+  color: #000;
 }
 
+.main-nav li {
+  display: inline-block;
+  padding: 5px 10px;
+}
 
+.header-promo {
+  background-image: url(../img/bgr_header_index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.features h2,
+.rooms h2,
+.service h2,
+.map .booking-btn {
+  text-align: center;
+}
+
+.hostel-photo {
+  text-align: center;
+}
+
+.service,
+.features,
+footer {
+  background-color: #ef5350;
+}
+
+.rooms-header {
+  background-image: url(../img/bgr_header_room.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
 
 @media (min-width: 1200px){
 .nav-wrapper {
