@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
@@ -12,24 +13,27 @@
     <!-- ----------------------------------------------------------------------------Header---------------------------------------------------------------------------- -->
 
     <header>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
-          <div class="col-xs-10 col-sm-8 col-lg-4">
+          <div class="col-xs-10 col-sm-8 col-lg-3">
             <div class="logo">
               <a href="javascript:void(0)"><img src="img/logo.png" alt=""></a>
             </div>
           </div>
-          <div class="hidden-xs col-sm-3 col-lg-2 col-lg-push-6">
-            <a href="tel:79991050525" class="phone-btn-light">+7 999 105-05-25</a>
+          <div class="hidden-xs col-sm-3 col-lg-2 col-lg-push-7">
+            <a href="tel:79991050525" class="phone-btn">+7 999 105-05-25</a>
           </div>
-          <div class="col-xs-2 col-sm-1 col-lg-6 col-lg-pull-2">
+          <div class="col-xs-2 col-sm-1 col-lg-6 col-lg-pull-1">
             <div class="main-nav">
               <ul>
-                <li><a href="javascript:void(0)">Номера</a></li>
-                <li><a href="javascript:void(0)">Фото</a></li>
-                <li><a href="javascript:void(0)">Гостям</a></li>
-                <li><a href="javascript:void(0)">Забронировать</a></li>
+                <li><a href="#" class="main-nav-link">Номера</a></li>
+                <li><a href="#" class="main-nav-link">Фото</a></li>
+                <li><a href="#" class="main-nav-link">Гостям</a></li>
+                <li><a href="#" class="main-nav-link">Забронировать</a></li>
               </ul>
+            </div>
+            <div class="hamburger open">
+              <span></span>
             </div>
           </div>
         </div>
@@ -46,156 +50,149 @@
 
       <div class="header-promo">
         <div class="container">
+
+          <h1 class="promo-name">Хостел в центре Петербурга</h1>
+          <p class="promo-adress">наб. Канала Грибоедова, 29</p>
+          <a href="" class="promo-btn">Забронировать</a>
+
+        </div>
+      </div>
+      </div>
+
+
+    <!-- FEATURES -->
+
+
+    <div class="features">
+      <div class="container">
+        <div class="row">
           <div class="col-xs-12">
-            <h1>Хостел в центре Петербурга</h1>
-            <p>наб. Канала Грибоедова, 29</p>
-            <div class="booking-btn"><a href="javascript:void(0)">Забронировать</a></div>
+            <h2 class="features-header">Что такое "флюгер"?</h2>
           </div>
+
+          <div class="col-xs-12 col-sm-4">
+            <div class="features-item direction">
+              <h3 class="features-name">Центр города</h3>
+              <p class="features-discription">15 минут пешком<br> до музеев и баров</p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-4">
+            <div class="features-item sunset">
+              <h3 class="features-name">Закаты на крыше</h3>
+              <p class="features-discription">С видом на канал Грибоедова<br> и Спас-на-Крови</p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-4">
+            <div class="features-item key">
+              <h3 class="features-name">Светлые номера</h3>
+              <p class="features-discription">На 12, 6 и 2 человек<br> от 500 до 2 500 за ночь</p>
+            </div>
+          </div>
+
         </div>
       </div>
+    </div>
 
 
-      <!-- FEATURES -->
+    <!-- ROOMS -->
 
 
-      <div class="features">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2>Что такое флюгер?</h2>
-            </div>
+    <div class="rooms">
+      <div class="container">
 
-            <div class="col-xs-12 col-sm-4">
-              <div class="features-item direction">
-                <h3>Центр города</h3>
-                <p>15 минут пешком до музеев и баров</p>
+
+        <h2 class="header-stripe">Номера</h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <a href=""><div class="room-block room-block-12">
+              <p class="room-name">12-местный</p>
+              <p class="room-cost room-cost-place">Место:<span>500</span></p>
+              <p class="room-cost">Номер:<span>5000</span></p>
               </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-              <div class="features-item sunset">
-                <h3>Закаты на крыше</h3>
-                <p>С видом на канал Грибоедова и Спас-на-Крови</p>
               </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-              <div class="features-item key">
-                <h3>Светлые номера</h3>
-                <p>На 12, 6 и 2 человек от 500 до 2 500 за ночь</p>
+            </a>
+          <div class="col-xs-12 col-sm-6">
+            <a href=""><div class="room-block room-block-6">
+              <p class="room-name">6-местный</p>
+              <p class="room-cost room-cost-place">Место:<span>600</span></p>
+              <p class="room-cost">Номер:<span>3000</span></p>
               </div>
-            </div>
-
+            </a>
           </div>
+          <div class="col-xs-12 col-sm-6">
+            <a href=""><div class="room-block room-block-twin">
+              <p class="room-name">2-местный</p>
+              <p class="room-cost room-cost-place">Место:<span>900</span></p>
+              <p class="room-cost">Номер:<span>1500</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <a href=""><div class="room-block room-block-lux">
+              <p class="room-name">Люкс</p>
+              <p class="room-cost room-cost-place">Место:<span>Не сдается</span></p>
+              <p class="room-cost">Номер:<span>2500</span></p>
+              </div>
+            </a>
+          </div>
+          <a href="javascript:void(0)" class="choose-room">Выбрать номер</a>
         </div>
       </div>
+    </div>
 
 
-      <!-- ROOMS -->
+    <!-- PHOTOGALLERY -->
 
-
-      <div class="rooms">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2>Номера</h2>
-            </div>
-
-            <div class="col-xs-12 col-sm-6">
-              <figure>
-                <img src="img/index_room-12.jpg" alt="">
-                <figcaption>
-                  <p class="room-name">12-местный</p>
-                  <p class="room-cost">Место:<span>500</span></p>
-                  <p class="room-cost">Номер:<span>5000</span></p>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <figure>
-                <img src="img/index_room-6.jpg" alt="">
-                <figcaption>
-                  <p class="room-name">6-местный</p>
-                  <p class="room-cost">Место:<span>600</span></p>
-                  <p class="room-cost">Номер:<span>3000</span></p>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <figure>
-                <img src="img/index_room-twin.jpg" alt="">
-                <figcaption>
-                  <p class="room-name">2-местный</p>
-                  <p class="room-cost">Место:<span>900</span></p>
-                  <p class="room-cost">Номер:<span>1500</span></p>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <figure>
-                <img src="img/index_room-lux.jpg" alt="">
-                <figcaption>
-                  <p class="room-name">Люкс</p>
-                  <p class="room-cost">Место:<span>Не сдается</span></p>
-                  <p class="room-cost">Номер:<span>2500</span></p>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="choose-room"><a href="javascript:void(0)"></a></div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- PHOTOGALLERY -->
-
-
+    <div class="photogallery">
       <div class="hidden-xs hostel-photo">
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
-              <h2>Фото хостела</h2>
+              <h2 class="header-stripe">Фото хостела</h2>
             </div>
 
             <div class="col-sm-6 col-lg-3">
-              <img src="img/hosel_photo1.jpg" alt="">
+              <a href=""><img src="img/hosel_photo1.jpg" alt=""></a>
             </div>
             <div class="col-sm-6 col-lg-3">
-              <img src="img/hosel_photo2.jpg" alt="">
+              <a href=""><img src="img/hosel_photo2.jpg" alt=""></a>
             </div>
             <div class="col-sm-6 col-lg-3">
-              <img src="img/hosel_photo3.jpg" alt="">
+              <a href=""><img src="img/hosel_photo3.jpg" alt=""></a>
             </div>
             <div class="col-sm-6 col-lg-3">
-              <img src="img/hosel_photo4.jpg" alt="">
+              <a href=""><img src="img/hosel_photo4.jpg" alt=""></a>
             </div>
           </div>
 
+          <div class="gallery-second-row">
+            <div class="hidden-sm row">
+              <div class="col-lg-3">
+                <a href=""><img src="img/hosel_photo1.jpg" alt=""></a>
+              </div>
+              <div class="col-lg-3">
+                <a href=""><img src="img/hosel_photo2.jpg" alt=""></a>
+              </div>
+              <div class="col-lg-3">
+                <a href=""><img src="img/hosel_photo3.jpg" alt=""></a>
+              </div>
+              <div class="col-lg-3">
+                <a href=""><img src="img/hosel_photo4.jpg" alt=""></a>
+              </div>
+            </div>
 
-          <div class="hidden-sm row">
-            <div class="col-lg-3">
-              <img src="img/hosel_photo1.jpg" alt="">
+            <div class="col-sm-12">
+
+              <a href="javascript:void(0)" class="photo-btn">Все фотографии</a>
+
             </div>
-            <div class="col-lg-3">
-              <img src="img/hosel_photo2.jpg" alt="">
-            </div>
-            <div class="col-lg-3">
-              <img src="img/hosel_photo3.jpg" alt="">
-            </div>
-            <div class="col-lg-3">
-              <img src="img/hosel_photo4.jpg" alt="">
-            </div>
+
           </div>
-
-          <div class="col-sm-12">
-            <div class="photo-btn">
-              <a href="javascript:void(0)">Все фотографии</a>
-            </div>
-          </div>
-
         </div>
-      </div>
 
+      </div>
 
 
       <!-- SERVICE -->
@@ -209,29 +206,29 @@
             </div>
 
             <div class="col-xs-12 col-sm-6">
-              <div class="service-item wifi">
-                <p class="service-name">Бесплатно сидеть в интернете</p>
+              <div class="service-item service-item-wifi">
+                <h3 class="service-name">Бесплатно сидеть в интернете</h3>
                 <p class="servise-discription">Wi-Fi со скоростью 30 Мбит, который ловит даже на крыше</p>
               </div>
             </div>
 
             <div class="col-xs-12 col-sm-6">
-              <div class="service-item lock">
-                <p class="service-name">Заботиться о ценных вещах</p>
+              <div class="service-item service-item-lock">
+                <h3 class="service-name">Заботиться о ценных вещах</h3>
                 <p class="servise-discription">За каждой кроватью в хостеле закреплена своя камера хранения</p>
               </div>
             </div>
 
             <div class="col-xs-12 col-sm-6">
-              <div class="service-item cup">
-                <p class="service-name">Готовить обеды на кухне</p>
+              <div class="service-item service-item-cup">
+                <h3 class="service-name">Готовить обеды на кухне</h3>
                 <p class="servise-discription">Или дать позаботаться о них хостелу за 300</p>
               </div>
             </div>
 
             <div class="col-xs-12 col-sm-6">
-              <div class="service-item umbrella">
-                <p class="service-name">Или дать позаботаться о них хостелу за 300 ₽</p>
+              <div class="service-item service-item-umbrella">
+                <h3 class="service-name">Слушать шум дождя на мансарде </h3>
                 <p class="servise-discription">Она устроена для работы и отдыха и вмещает до 30 человек</p>
               </div>
             </div>
@@ -248,19 +245,19 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <h2>Контакты</h2>
+              <h2 class="header-stripe">Контакты</h2>
             </div>
 
             <div class="col-xs-12 col-lg-6">
-              <a href="#map">Наб. канала Грибоедова, 29</a>
+              <a class="contact-map" href="#map">Наб. канала Грибоедова, 29</a>
             </div>
 
             <div class="col-xs-12 col-lg-3">
-              <a href="tel:79991050525">+7 999 105-05-25</a>
+              <a class="contact-phone" href="tel:79991050525">+7 999 105-05-25</a>
             </div>
 
             <div class="col-xs-12 col-lg-3">
-              <a href="mailto:fluger@gmail.com">fluger@gmail.com</a>
+              <a class="contact-mail" href="mailto:fluger@gmail.com">fluger@gmail.com</a>
             </div>
 
           </div>
@@ -276,13 +273,13 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <div class="booking-btn"><a href="javascript:void(0)">Забронировать</a></div>
+              <a class="booking-btn" href="javascript:void(0)">Забронировать</a>
             </div>
           </div>
         </div>
       </div>
 
-    </main>
+      </main>
 
     <!-- ----------------------------------------------------------------------------Footer---------------------------------------------------------------------------- -->
 
@@ -296,10 +293,18 @@
           <div class="col-xs-12 col-sm-6 col-sm-push-6">
             <div class="row">
               <ul>
-                <li class="col-xs-12 col-lg-6"><a href="javascript:void(0)">Номера</a></li>
-                <li class="col-xs-12 col-lg-6"><a href="javascript:void(0)">Фото</a></li>
-                <li class="col-xs-12 col-lg-6"><a href="javascript:void(0)">Гостям</a></li>
-                <li class="col-xs-12 col-lg-6"><a href="javascript:void(0)">Забронировать</a></li>
+                <li class="col-xs-12 col-lg-6">
+                  <a class="footer-link" href="">Номера</a>
+                </li>
+                <li class="col-xs-12 col-lg-6 col-lg-pull-2">
+                  <a class="footer-link" href="">Гостям</a>
+                </li>
+                <li class="col-xs-12 col-lg-6">
+                  <a class="footer-link" href="">Фото</a>
+                </li>
+                <li class="col-xs-12 col-lg-6 col-lg-pull-2">
+                  <a class="footer-link" href="">Забронировать</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -309,15 +314,21 @@
           <div class="col xs-12 col-sm-6 col-sm-pull-6">
             <div class="row">
               <div class="col-xs-12 col-lg-6">
+
                 <p>Санкт-Петербург</p>
                 <p>Наб. канала Грибоедова, 29</p>
+
               </div>
               <div class="col-xs-12 col-lg-6">
+
                 <p>+7 999 105-05-25</p>
                 <p>fluger@gmail.com</p>
+
               </div>
               <div class="col-xs-12">
-                <p>© 2015 «Флюгер»</p>
+                <div class="copyright">
+                  <p>© 2015 «Флюгер»</p>
+                </div>
               </div>
             </div>
           </div>
