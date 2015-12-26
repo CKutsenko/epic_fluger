@@ -1,13 +1,21 @@
 $(document).ready(function(){
 
+var toggler = document.getElementById('toggler'),
+    modalButton = document.getElementById('modalButton'),
+    modalClose = document.getElementById('modalClose');
+
+toggler.onclick = function(e) {
+  e.preventDefault();
+  mainNav.classList.toggle('show');
+  }
+
+
 
 // Карта
 
   var points = [
   // Найти координаты: http://www.mapcoordinates.net/ru
-  {lat: 59.849, lng: 30.422},
-  {lat: 59.797, lng: 30.396},
-  {lat: 59.817, lng: 30.394}
+  {lat: 59.932, lng: 30.348}
 ];
 
 $.ajax({
@@ -24,7 +32,7 @@ $.ajax({
 
 function mapInit() {
   var map = new google.maps.Map($('#mymap').get(0), {
-    center: {lat: 59.820, lng: 30.410},
+    center: {lat: 59.932, lng: 30.348},
     zoom: 12,
     // disableDefaultUI: true,
     scrollwheel: false,

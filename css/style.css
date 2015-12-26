@@ -12,6 +12,7 @@
 }
 
 
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -402,6 +403,7 @@ address {
 
 
 .container {
+  width: 320px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -1302,10 +1304,70 @@ body {
   display: none;
 }
 
-.hamburger {
-  background-color: #ef5350;
+header {
   min-height: 65px;
-  min-width: 65px;
+}
+
+.toggler {
+  background-color: #ef5350;
+  height: 65px;
+  width: 65px;
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+.toggler > span {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+  top: 20%;
+}
+
+.toggler > span:before,
+.toggler > span:after {
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  content: '';
+}
+
+.toggler > span:before {
+  top: 4px;
+}
+
+.toggler > span:after {
+  top: -4px;
+}
+
+.main-nav {
+}
+.main-nav ul {
+  padding-left: 5px;
+  width: 320px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.main-nav ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.main-nav-link{
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
 }
 
 .logo {
@@ -1359,6 +1421,7 @@ body {
 .service h2,
 .map .booking-btn {
   text-align: center;
+  position: relative;
 }
 
 .features .container {
@@ -1440,9 +1503,12 @@ body {
   background-color: #ef5350;
   position: absolute;
   left: 38%;
-  top: 125px;
+  top: 100px;
 }
 
+.photogallery .header-stripe:after {
+  top: 125px;
+}
 .rooms .container {
   padding: 10px 2px;
 }
@@ -1627,7 +1693,7 @@ body {
 .contact-phone,
 .contact-mail {
   color: #000;
-  padding: 20px 60px;
+  padding: 20px 50px;
 }
 
 .contact-map:before {
@@ -1636,7 +1702,7 @@ body {
   width: 18px;
   height: 24px;
   position: absolute;
-  left: 40px;
+  left: 35px;
 }
 
 .contact-phone:before {
@@ -1645,7 +1711,7 @@ body {
   width: 24px;
   height: 24px;
   position: absolute;
-  left: 40px;
+  left: 35px;
 }
 
 .contact .col-xs-12{
@@ -1666,7 +1732,7 @@ body {
   width: 24px;
   height: 22px;
   position: absolute;
-  left: 40px;
+  left: 35px;
 }
 
 #map {
@@ -1976,7 +2042,7 @@ footer p {
 }
 
 @media (min-width: 1200px){
-  .hamburger {
+  .toggler {
     display: none;
   }
 
