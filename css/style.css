@@ -1313,6 +1313,11 @@ header {
   height: 65px;
   width: 65px;
   text-align: center;
+
+}
+
+#toggler {
+  overflow: hidden;
 }
 
 .show {
@@ -1353,21 +1358,21 @@ header {
 }
 .main-nav ul {
   padding-left: 5px;
-  width: 320px;
   margin: 0 auto;
   background-color: #000;
 }
 
 .main-nav ul li {
   list-style-type: none;
-  margin-bottom: 5px;
   text-transform: uppercase;
+    padding: 15px 0;
 }
 
 .main-nav-link{
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   font-weight: bold;
+
 }
 
 .logo {
@@ -2050,6 +2055,10 @@ footer p {
     display: block;
   }
 
+  .main-nav ul {
+  background: none;
+  }
+
   .main-nav li {
     display: inline-block;
     padding: 15px;
@@ -2060,6 +2069,7 @@ footer p {
     font-weight: 700;
     color: #ef5350;
     text-transform: uppercase;
+    padding: 0 20px;
   }
 
   .features-item{
