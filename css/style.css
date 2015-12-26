@@ -1380,7 +1380,7 @@ header {
 }
 
 .header-promo {
-  background-image: url(../img/bgr_header_index.jpg);
+  background-image: url(../img/bgr_header_index_320.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -1891,6 +1891,10 @@ footer p {
     min-height: 68px;
   }
 
+  .header-promo {
+  background-image: url(../img/bgr_header_index.jpg);
+}
+
   .main-nav{
     display: none;
   }
@@ -2106,6 +2110,11 @@ footer p {
   .header-stripe:after {
     left: 47%;
     top: 130px;
+  }
+
+
+  .rooms .header-stripe:after {
+    top: 100px;
   }
 
   .room-block-12,
