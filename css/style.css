@@ -1355,6 +1355,17 @@ header {
 }
 
 .main-nav {
+   position: absolute;
+   width: 100%;
+   top: 65px;
+}
+
+#toggler {
+   overflow: hidden;
+   float: right;
+}
+
+.main-nav {
 }
 .main-nav ul {
   padding-left: 5px;
