@@ -11,8 +11,6 @@
   height: 450px;
 }
 
-
-
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -1354,15 +1352,11 @@ header {
   top: -4px;
 }
 
-
 #toggler {
    overflow: hidden;
    float: right;
 }
 
-
-.main-nav {
-}
 .main-nav ul {
   padding-left: 5px;
   margin: 0 auto;
@@ -1379,7 +1373,6 @@ header {
   font-size: 16px;
   color: #fff;
   font-weight: bold;
-
 }
 
 .logo {
@@ -1521,6 +1514,7 @@ header {
 .photogallery .header-stripe:after {
   top: 125px;
 }
+
 .rooms .container {
   padding: 10px 2px;
 }
@@ -1573,7 +1567,6 @@ header {
 .room-block-lux:active {
   background-image: url(../img/index_room-lux.jpg);
 }
-
 
 .choose-room {
   margin-top: 40px;
@@ -1804,7 +1797,6 @@ footer p {
   padding-top: 20px;
 }
 
-
 /*ROOM PROMO*/
 
 .rooms-header {
@@ -1900,7 +1892,7 @@ footer p {
 
   .header-promo {
   background-image: url(../img/bgr_header_index.jpg);
-}
+  }
 
   .main-nav{
     display: none;
@@ -2053,8 +2045,6 @@ footer p {
   .rooms-header p:before {
     right: 69%;
   }
-
-
 }
 
 @media (min-width: 1200px){
