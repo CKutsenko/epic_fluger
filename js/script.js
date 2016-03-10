@@ -1,16 +1,5 @@
 $(document).ready(function(){
 
-var toggler = document.getElementById('toggler'),
-    modalButton = document.getElementById('modalButton'),
-    modalClose = document.getElementById('modalClose');
-
-toggler.onclick = function(e) {
-  e.preventDefault();
-  mainNav.classList.toggle('show');
-  }
-
-
-
 // Карта
 
   var points = [
@@ -46,6 +35,18 @@ function mapInit() {
       map: map,
     }));
   });
-}
+};
+
+var toggler = document.getElementById('toggler');
+toggler.onclick = function(e){
+  e.preventDefault();
+  toggler.classList.toggle('toggler--close');
+  document.getElementById('nav').classList.toggle('nav--visible');
+};
+
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    });
 
 });
